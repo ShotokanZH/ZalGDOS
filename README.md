@@ -5,7 +5,7 @@ For a browser, the act of rendering an UTF8 combination of multiple (meta-)chara
 As a fact, trying to display a text with 10k or more metacharacters (such as a big Zalgo text) will almost always result in a global slow-down of the current page rendering, which slows down even the most basic operations (scrolling, zooming etc), and  even leads to unresponsiveness and page crash.
 Keeping that in mind, I tried to generate a **huge** UTF8 combination of characters, hoping to produce a "*browser DOS character*", just for fun.
 
-In order to achieve that result, I started writing a simple Python script that sends a combination of multiple metacharacters (1024^2 == 1MB) to my email, but t occurs something I may not have anticipated:
+In order to achieve that result, I started writing a simple Python script that sends a combination of multiple metacharacters (1024^2 == 1MB) to my email, but something I couldn't have anticipated occured:
 
 **GMail just died.**
 
