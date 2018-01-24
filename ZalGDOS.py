@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# ZaGDOS by ShotokanZH
+# ZalGDOS by ShotokanZH
 
 import smtplib
 from email.mime.text import MIMEText
